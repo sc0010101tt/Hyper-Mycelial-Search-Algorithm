@@ -1,0 +1,167 @@
+{
+  "knowledge_bank": [
+    {
+      "fingerprint": {
+        "n_nodes": 900.0,
+        "density": 0.004301075268817204,
+        "avg_degree": 3.8666666666666667,
+        "avg_edge_weight": 5.543104999410644,
+        "max_edge_weight": 9.999010594454036,
+        "std_edge_weight": 2.564459040961859,
+        "goal_distance": 41.012193308819754
+      },
+      "optimal_params": {
+        "DECAY_FACTOR": 0.960288050932379,
+        "PHEROMONE_WEIGHT": 0.3903946102443061,
+        "NEGSCENT_WEIGHT": 2.4062770001878784,
+        "GOAL_HEURISTIC_WEIGHT": 0.5393790301196257,
+        "POOL_TAX_RATE": 0.08007638307675025,
+        "BRIDGE_ENERGY_COST": 0.269873299375637,
+        "COMPETITION_PENALTY": 1.002287584511774,
+        "BRIDGING_COST_THRESHOLD": 6.21402874106075,
+        "MAX_ENERGY": 5.876453407362454,
+        "BRIDGE_DISCOUNT": 0.4652583219696624,
+        "EVO_MUTATION_RATE": 0.176957156786405,
+        "EVO_MUTATION_STRENGTH": 0.4242494882125307
+      },
+      "performance": {
+        "score": 19.630000000000003
+      }
+    },
+    {
+      "fingerprint": {
+        "n_nodes": 900.0,
+        "density": 0.004301075268817204,
+        "avg_degree": 3.8666666666666667,
+        "avg_edge_weight": 5.580301580855984,
+        "max_edge_weight": 9.999170456582883,
+        "std_edge_weight": 2.563460762330674,
+        "goal_distance": 41.012193308819754
+      },
+      "optimal_params": {
+        "DECAY_FACTOR": 0.9338412964136147,
+        "PHEROMONE_WEIGHT": 0.23961465368183182,
+        "NEGSCENT_WEIGHT": 2.6500236276503917,
+        "GOAL_HEURISTIC_WEIGHT": 0.5665648380389168,
+        "POOL_TAX_RATE": 0.0705550752330112,
+        "BRIDGE_ENERGY_COST": 0.2836632368632149,
+        "COMPETITION_PENALTY": 4.467423851715361,
+        "BRIDGING_COST_THRESHOLD": 12.815235110107857,
+        "MAX_ENERGY": 25.706388460554777,
+        "BRIDGE_DISCOUNT": 0.10414031755196686,
+        "EVO_MUTATION_RATE": 0.07629853549897418,
+        "EVO_MUTATION_STRENGTH": 0.3285271295626435
+      },
+      "performance": {
+        "score": 19.38
+      }
+    },
+    {
+      "fingerprint": {
+        "n_nodes": 900.0,
+        "density": 0.004301075268817204,
+        "avg_degree": 3.8666666666666667,
+        "avg_edge_weight": 5.507903958274657,
+        "max_edge_weight": 9.99486441881358,
+        "std_edge_weight": 2.5609708845933357,
+        "goal_distance": 41.012193308819754
+      },
+      "optimal_params": {
+        "DECAY_FACTOR": 0.9177096131472101,
+        "PHEROMONE_WEIGHT": 1.3176061142282698,
+        "NEGSCENT_WEIGHT": 2.179958656855681,
+        "GOAL_HEURISTIC_WEIGHT": 0.24919632747820725,
+        "POOL_TAX_RATE": 0.07138482154929213,
+        "BRIDGE_ENERGY_COST": 0.41689018222475055,
+        "COMPETITION_PENALTY": 1.3431426323022164,
+        "BRIDGING_COST_THRESHOLD": 8.344176419569873,
+        "MAX_ENERGY": 20.621342166161174,
+        "BRIDGE_DISCOUNT": 0.44719542064858536,
+        "EVO_MUTATION_RATE": 0.1567693999497496,
+        "EVO_MUTATION_STRENGTH": 0.4509909333195458
+      },
+      "performance": {
+        "score": 19.48
+      }
+    },
+    {
+      "fingerprint": {
+        "n_nodes": 900.0,
+        "density": 0.004301075268817204,
+        "avg_degree": 3.8666666666666667,
+        "avg_edge_weight": 5.588547554814306,
+        "max_edge_weight": 9.999170456582883,
+        "std_edge_weight": 2.567321506245552,
+        "goal_distance": 41.012193308819754
+      },
+      "optimal_params": {
+        "DECAY_FACTOR": 0.9093382538526964,
+        "PHEROMONE_WEIGHT": 1.35206722407786,
+        "NEGSCENT_WEIGHT": 1.3857439164738845,
+        "GOAL_HEURISTIC_WEIGHT": 0.41110227604973804,
+        "POOL_TAX_RATE": 0.08774530735326429,
+        "BRIDGE_ENERGY_COST": 0.03654388174376355,
+        "COMPETITION_PENALTY": 3.6138219530631663,
+        "BRIDGING_COST_THRESHOLD": 10.400336766834798,
+        "MAX_ENERGY": 7.727570333465614,
+        "BRIDGE_DISCOUNT": 0.3668246583361795,
+        "EVO_MUTATION_RATE": 0.16211257706372278,
+        "EVO_MUTATION_STRENGTH": 0.0991710645101618
+      },
+      "performance": {
+        "score": 19.72
+      }
+    },
+    {
+      "fingerprint": {
+        "n_nodes": 900.0,
+        "density": 0.004301075268817204,
+        "avg_degree": 3.8666666666666667,
+        "avg_edge_weight": 5.498672222458314,
+        "max_edge_weight": 9.999789589927257,
+        "std_edge_weight": 2.5578325651289204,
+        "goal_distance": 41.012193308819754
+      },
+      "optimal_params": {
+        "DECAY_FACTOR": 0.9541231102680622,
+        "PHEROMONE_WEIGHT": 1.516196536101425,
+        "NEGSCENT_WEIGHT": 1.409183664112862,
+        "GOAL_HEURISTIC_WEIGHT": 0.3709284978936105,
+        "POOL_TAX_RATE": 0.07005008650878776,
+        "BRIDGE_ENERGY_COST": 0.21279926956222625,
+        "COMPETITION_PENALTY": 2.611407668799804,
+        "BRIDGING_COST_THRESHOLD": 13.597880278081863,
+        "MAX_ENERGY": 39.304143305444526,
+        "BRIDGE_DISCOUNT": 0.15687241170777158,
+        "EVO_MUTATION_RATE": 0.11127222458603431,
+        "EVO_MUTATION_STRENGTH": 0.382751698693634
+      },
+      "performance": {
+        "score": 19.17
+      }
+    }
+  ],
+  "feature_names": [
+    "n_nodes",
+    "density",
+    "avg_degree",
+    "avg_edge_weight",
+    "max_edge_weight",
+    "std_edge_weight",
+    "goal_distance"
+  ],
+  "target_names": [
+    "DECAY_FACTOR",
+    "PHEROMONE_WEIGHT",
+    "NEGSCENT_WEIGHT",
+    "GOAL_HEURISTIC_WEIGHT",
+    "POOL_TAX_RATE",
+    "BRIDGE_ENERGY_COST",
+    "COMPETITION_PENALTY",
+    "BRIDGING_COST_THRESHOLD",
+    "MAX_ENERGY",
+    "BRIDGE_DISCOUNT",
+    "EVO_MUTATION_RATE",
+    "EVO_MUTATION_STRENGTH"
+  ]
+}
