@@ -20,23 +20,6 @@
 * `python examples/exp_injury.py`: Proves resilience to trauma.
 * `python examples/exp_dormancy.py`: Proves metabolic homeostasis.
 
-| **Adaptive Pathfinding** | **Territorial Competition** |
-|:---:|:---:|
-| ![Hero Shot](final_demo.png) | ![Competition](competition.png) |
-| *HMSA mutating to bridge 50x weight walls* | *Resource depletion creating a "No Man's Land"* |
-
-### 1. Adaptive Pathfinding: Solving Extreme Terrain
-HMSA distinguishes itself from standard algorithms by its ability to **physically adapt** to hostile environments. In the "Hard" scenario (Left Image), the organism faces a map filled with high-resistance walls (Weight 50.0) that would normally trap a standard search agent.
-
-* **The Adaptation:** The Meta-Learner ("Brain") identified the high average edge weight before the run began. It triggered a physiological change, increasing `MAX_ENERGY` to **~24.0** (up from 5.0) and activating a `BRIDGE_DISCOUNT` to make walls 98% permeable.
-* **The Solution:** The Green (Forward) and Blue (Backward) colonies did not route *around* the walls. They used their accumulated energy reserves to **tunnel directly through them**, meeting in the center to form a complete path.
-
-### 2. Emergent Behavior: Resource Wars
-Unlike graph traversal algorithms which can overlap without consequence, HMSA agents occupy physical space and consume finite resources ("Nutrients"). When two distinct colonies are spawned in a closed system (Right Image), they demonstrate the biological principle of **Competitive Exclusion**.
-
-* **The Conflict:** Two colonies (Red starting top-left, Blue starting bottom-right) expand simultaneously.
-* **The "No Man's Land":** Notice the jagged **white diagonal line** separating the two colors. This is not a pre-programmed wall; it is a zone of resource exhaustion.
-* **The Mechanism:** As the colonies expand, they deplete the nutrients in the nodes they visit. When the two fronts collide, the nodes between them become "scorched earth." Any tip attempting to cross into the enemy's zone finds zero energy and high competition penalties, causing it to die instantly.
 
 ##  Experimental Results
 
